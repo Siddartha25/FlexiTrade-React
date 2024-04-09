@@ -3,7 +3,6 @@ import {useNavigate,Link} from 'react-router-dom';
 import { useContext, useEffect } from "react";
 import shopContext from "../context/shopcontext";
 import Myapproveddeliveryitem from './Myapproveddeliveryitem';
-
 function Myapproveddeliveries() {
 
     const context = useContext(shopContext);
